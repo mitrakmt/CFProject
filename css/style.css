@@ -140,6 +140,7 @@ body {
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 1;
 }
 
 .nav ul li {
@@ -211,4 +212,30 @@ body {
 
     .hover_img a:hover span {
       display:block;
+    }
+
+    .social a {
+      font-size: 35px;
+    }
+
+    .carousel-caption {
+      color: white;
+      margin-bottom: 20%;
+    }
+
+    .carousel-caption h2 {
+      font-size: 38px;
+    }
+
+    .carousel-caption p {
+      font-size: 25px;
+    }
+
+    #carousel-example-generic {
+      padding-top: 0px;
+    }
+
+    .container-fluid {
+      padding-left: 0px;
+      padding-right: 0px;
     }
