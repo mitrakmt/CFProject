@@ -196,3 +196,19 @@ body {
     .panel-title {
       font-style: 'Open Sans';
     }
+
+    .hover_img a {
+      position:center;
+    }
+
+    .hover_img a span {
+      position: center; display:none; z-index:99;
+    }
+
+    .hover_img a:hover {
+      text-decoration: none; color: orange;
+    }
+
+    .hover_img a:hover span {
+      display:block;
+    }
