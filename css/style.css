@@ -1,0 +1,133 @@
+.jumbotron {
+  background-image: url("../img/landscape.jpg");
+  background-size: cover;
+}
+
+.jumbotron p {
+  color: black;
+  text-decoration: none;
+}
+
+.jumbotron h1 {
+  color: black;
+}
+
+#aboutimage {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.image {
+  display: inline-block;
+  float: left;
+}
+
+.column {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  padding: 0 20px;
+  margin-top: 20px;
+}
+
+.main_text {
+  clear: both;
+  padding-top: 60px;
+}
+
+element.style {
+  margin-bottom: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Typography */
+
+h1,
+h2,
+h3 {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif
+}
+
+p,
+li,
+ul{
+  font-family: 'Open Sans', georgia, Didot;
+  -webkit-padding-start: 0px;
+}
+
+.intro p {
+  font-family: 'Open Sans', Futura, Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: 100;
+  -webkit-margin-before: 0;
+}
+
+.skills {
+  text-align: left;
+  font-family: 'Open Sans', Futura, Helvetica, Arial, sans-serif;
+}
+
+  .skills li {
+    list-style: none;
+  }
+
+body {
+  background-color: #FFFFFf;
+  color: #34495e;
+}
+
+/* Contact */
+
+#contactheader {
+  width: 1000px;
+}
+
+  #contactheader h1 {
+    font-size: 3em;
+  }
+
+#contactimage {
+  height: 50%;
+  width: 50%;
+}
+
+#cimage {
+  float: left;
+  display: inline-block;
+  width: 30%;
+}
+
+
+  #cimage img {
+	   border-radius: 30%;
+   }
+
+#contactabout {
+  float: right;
+  display: inline-block;
+  width: 70%;
+}
+
+.image ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.contact {
+  float: right;
+  display: inline-block;
+  width: 50%;
+}
