@@ -87,6 +87,7 @@ ul{
 body {
   background-color: #FFFFFf;
   color: #34495e;
+  padding-top: 60px;
 }
 
 /* Contact */
@@ -131,3 +132,50 @@ body {
   display: inline-block;
   width: 50%;
 }
+
+/* Navigation */
+
+.nav {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.nav ul li {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 20px 10px 20px;
+  float: right;
+}
+
+  .nav ul li a {
+    color: white;
+  }
+
+  .nav ul li a i {
+    color: white;
+  }
+
+  .nav a:hover {
+    color: lightblue;
+    text-decoration: none;
+    transition: color 600ms;
+  }
+
+  #social {
+    font-size: 35px;
+  }
+
+    #social a i {
+      color: black;;
+      left: 5;
+      float: left;
+      padding-bottom: 10px;
+      padding-right: 15px;
+    }
+
+    #social a i:hover {
+      color: skyblue;
+    }
