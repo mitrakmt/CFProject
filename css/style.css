@@ -179,3 +179,20 @@ body {
     #social a i:hover {
       color: skyblue;
     }
+
+    .image li:hover {
+      color: #5179D8;
+    }
+
+    .panel-body:hover {
+      background-color: black;
+      color: white;
+    }
+
+    .panel-heading {
+      background-color: gray;
+    }
+
+    .panel-title {
+      font-style: 'Open Sans';
+    }
